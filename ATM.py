@@ -1,6 +1,6 @@
 #--ATM Design Implementation--
 
-balance = 3000
+balance = 5000
 
 while True:
     print("--------------------------------")
