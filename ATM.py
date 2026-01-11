@@ -1,11 +1,11 @@
 #--ATM Design Implementation--
 
-balance = 6000
+balance = 5000
 
 while True:
-    print("-----------------------------------")
-    print("--------- Welcome to the ATM ------")
-    print("-----------------------------------")
+    print("--------------------------------------")
+    print("--------- Welcome to the ATM ---------")
+    print("--------------------------------------")
     print("1. Check Balance")
     print("2. Withdraw Money")
     print("3. Deposit Money")
@@ -25,7 +25,7 @@ while True:
             print(f"${amount} withdrawn. New balance is: ${balance}")
 
     elif choice == '3':
-        amount = float(input("Enter the amount to deposit: $"))
+        amount = float(input("Enter amount to deposit: $"))
         balance += amount
         print(f"${amount} deposited. New balance is: ${balance}")
 
